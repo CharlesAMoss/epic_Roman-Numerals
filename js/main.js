@@ -22,3 +22,20 @@ var roman = function (num) {
 // C       100
 // D       500
 // M       1,000
+
+
+$(document).ready(function() {
+
+    $("form#roman").submit(function(event) {
+
+        var num = $("input#num").val();
+
+        var result = roman(num);
+
+        $("#result p").text(result);
+
+        $("#result").show();
+        event.preventDefault();
+    });
+
+});

@@ -104,6 +104,10 @@ header {
 	content: ">> ";
 }
 
+.main__result p {
+	word-wrap: break-word;
+}
+
 /* content =================== */
 
 /* form ====================== */
