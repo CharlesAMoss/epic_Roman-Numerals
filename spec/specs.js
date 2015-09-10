@@ -3,7 +3,7 @@ describe('roman', function() {
     expect(roman(1999)).to.be.a('string');
   });
 
-  // it("is true for most years divisible by 4", function() {
-    // expect(leapYear(2012)).to.equal(true);
-  // });
+  it("takes input number and returns roman numerals", function() {
+    expect(roman(2012)).to.equal("MMXII");
+  });
 });
